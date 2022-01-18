@@ -2,12 +2,13 @@ const mysql = require('mysql');
 const http = require('http');
 
 const port = process.env.PORT || 3000;
+//mysql://dvtactuttoiv40li:o1u6ikw8b7tcnxzi@kutnpvrhom7lki7u.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/lrmyckcc4lhvcqou
 
 const dbConfig = {
-	host: "host",
-	user: "user",
-	password: "password",
-	database: "database",
+	host: "kutnpvrhom7lki7u.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+	user: "dvtactuttoiv40li",
+	password: "o1u6ikw8b7tcnxzi",
+	database: "lrmyckcc4lhvcqou",
 	multipleStatements: false,
 	reconnect: true
 };
